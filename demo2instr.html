@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>More information about data set visualization demo</TITLE>
+</HEAD>
+<BODY>
+
+<h1>More information about data set visualization demo</h1>
+
+
+<h2>The controls</h2>
+
+<em>Here are some more detailed instructions for the second demo:</em><p>
+
+<h3>Input data classes</h3>
+
+<img src="images/D2classes.gif" alt="" hspace=4 vspace=4 align=left>
+The four coloured "pie" shapes on the left define the input classes.
+There are four classes represented by the colours red, yellow, green
+and blue.  In each pie the sector represents the distribution of
+vectors that the class produces.  All pies produce random vectors that
+are evenly distributed within the sector shown in the pie.  The pies
+can be edited with the mouse in two ways: dragging the mouse near the
+center of the pie rotates the whole sector.  Using the mouse near the
+edge of the circle changes the 'width' of the sector.  <br clear=left>
+
+<h3>Proportions of classes</h3>
+
+<img src="images/D2pros.gif" alt="" hspace=4 vspace=4 align=left>
+The vertical bar next to the pies sets the relative proportions of the
+four classes in the input data.  Initially the input vectors are
+distributed equally among all classes.  You can edit the proportions with
+the mouse:
+press down the mouse button to grab hold of the nearest color border,
+then move the border where you want with the mouse.  
+<!-- press down the mouse button near a border of two colors and
+drag the border where you want. (Pressing down the mouse button
+actually selects the nearest color border and moves it to the point
+where the mouse is.) -->  The red area corresponds to the red
+pie on the left, etc.  <br clear=left>
+
+<h3>The map</h3>
+
+<img src="images/D2map.gif" alt="" hspace=4 vspace=2 align=left>
+
+The area on the right is the self-organizing map.  The map consists of
+20 map units organized as a 5x4 unit grid (rectangular topology).  The
+map is taught at the rate of 20 iterations per second and the map is
+classified  and redisplayed once a second.  In the classification, the
+background color of the units are set to the color of the input class
+they are closest to.  <br clear=left> <p>
+
+<img src="images/D2unit.gif" alt="" hspace=4 vspace=2 align=left>
+Each map unit contains a two-dimensional model vector whose components
+are interpreted as two coordinates, <em>x</em> and <em>y</em>.
+
+Each map unit is represented by an arrow that points from the
+coordinates [0,0] to coordinates [<i>x</i>,<i>y</i>] stored in the
+model vector.  The range of the coordinates is from -1 to 1.
+The background color of the map unit tells which input class it
+represents the best (see the pies on the left).  The model vectors
+in the map units (the black arrows) can be edited with the mouse.
+<br clear=left>
+
+<h3>Alpha/radius controls</h3>
+
+<img src="images/D2alpharad.gif" alt="" hspace=4 vspace=4><br>
+
+Below the pies and the map there is the control panel that controls
+the <em>alpha (learning rate)</em> and <em>neighborhood radius</em>
+parameters of the algorithm.  The upper row controls <i>alpha</i> and
+the lower controls <i>radius</i>.  They both work in the same way: On
+the left the text field shows the initial value of the parameter which
+can be changed.  Simply enter the new value and press return.  The
+next display shows what the value of the parameter is relative to the
+starting and the ending values.  The number displayed shows the actual
+value of the parameter.  The red vertical line shows the position (use
+mouse to change its position).  Alpha runs from the initial value to
+zero and radius runs from the initial value to 1.  By default, when
+the teaching is in progress, the alpha and radius parameters decrease
+over time.  You can stop them to constant value with the STOP
+button. To set it moving again, press the button again (it should read
+START).  RESET resets the value of the parameter to the initial value
+(and moves the red indicator to the initial, leftmost position).
+
+<h3>Main controls</h3>
+
+<img src="images/D2controls.gif" alt="" hspace=4 vspace=4><br>
+Finally, the control panel in the bottom is used to start and stop
+teaching, randomize the map and to reset the values.  Press START to
+start teaching the map, press it again to stop. Pressing the
+RANDOMIZE&nbsp;MAP button initializes the map to random values.  RESET
+resets the alpha and radius parameters described above.
+
+<hr>
+<div align=center>
+*
+<a href="index.html"><strong>Demo Index</strong></a>
+*
+<a href="http://www.cis.hut.fi/nnrc/index.html"><strong>Neural Networks Research Centre</strong></a>
+*
+<div>
+<hr>
+<font size=-1><i>
+<!-- hhmts start -->
+Last modified: Wed Sep 29 18:13:38 1999
+<!-- hhmts end -->
+</i></font>
+</body></html>

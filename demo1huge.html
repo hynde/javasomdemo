@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>First demo - the SOM learning algorithm</TITLE>
+</HEAD>
+<BODY>
+
+<h1>The SOM learning algorithm</h1>
+
+In this demo we have a one-dimensional map with eight
+one-dimensional units.  Initially the map units are initialized to
+random values.  The map is trained with random data as input and  as the
+result, the map will become organized. <p>
+
+The map can be trained either automatically or manually.  During
+automatic training the map is fed with random values at a constant
+rate.  In manual training you can yourself select the value used for
+training (the input vector) by clicking on the
+<a href="demo1instr.html#input">input vector</a>
+
+(the leftmost slider with coloured background) with the mouse or you
+can press the <b>SPACE</b> key to teach one step with a random vector.
+In both automatic and manual training the state of the map is shown
+after each step and the change between the previous and the new state
+is shown with the yellow areas in the map units.<p>
+
+Use the <b>START/STOP</b> button to start and stop the automatic
+training.  The <b>RANDOMIZE</b> button will set the map units to
+random values.  Use the text field to set the <i>alpha</i> learning
+rate parameter.  Map units are also editable with the mouse.  <p>
+
+<a href="demo1instr.html">More detailed information</a> about the
+first demo is also available.  But now, lets see that demo:
+
+<hr>
+<a name="applet"></a>
+
+<APPLET CODE="SOMDemo1.class" ARCHIVE="somdemo.jar" WIDTH=768 HEIGHT=500>
+<PARAM NAME=IPS   VALUE=5>
+<PARAM NAME=UNITW VALUE=80>
+<PARAM NAME=UNITH VALUE=420>
+<PARAM NAME=UNITS VALUE=8>
+<PARAM NAME=ALPHA VALUE="0.2">
+<PARAM NAME=FONTSIZE VALUE=36>
+<PARAM NAME=BORDERSIZE VALUE=3>
+
+<strong>
+Java SOM applet not started.  Possibly Java has been turned off or
+your browser doesn't support Java applets...
+</strong>
+</APPLET>
+
+<hr>
+
+<i>Go to the <a href="demo2.html">second demo</a></i>.
+
+<hr>
+<div align=center>
+*
+<a href="index.html"><strong>Demo Index</strong></a>
+*
+<a href="http://www.cis.hut.fi/nnrc/index.html"><strong>Neural Networks Research Centre</strong></a>
+*
+<div>
+<hr>
+<font size=-1><i>
+<!-- hhmts start -->
+Last modified: Wed Sep 29 19:41:24 1999
+<!-- hhmts end -->
+</i></font>
+</body></html>
+

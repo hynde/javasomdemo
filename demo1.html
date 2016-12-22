@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>The SOM algorithm demonstration</TITLE>
+</HEAD>
+<BODY>
+
+<h1>The SOM algorithm demonstration</h1>
+
+<font size=+1><em>
+The first demo shows the SOM algorithm in a nutshell.  When the
+Self-Organizing Map algorithm controls a row of sliders, they
+gradually become ordered when random inputs are presented.
+</em></font><p>
+
+In this demo a one-dimensional map is represented by a row of sliders.
+The sliders, representing map units, are controlled by the SOM
+algorithm.  When random inputs are presented, the values of the sliders
+gradually become ordered.  During training the difference between the
+previous and the new value of a slider is shown with yellow colour
+after each training step.  The slider whose value is closest to the
+input value (i.e. corresponding to the best-matching map unit) is
+indicated with red colour.  The leftmost slider with pinkish
+background is the input controller.  It shows the input presented to
+the map at each training step.  <p>
+
+The map can be trained either automatically or manually.  During
+automatic training the map is presented with random inputs at a
+constant rate.  In manual training you can yourself specify the input
+used for training by clicking with the mouse on the input controller
+(the leftmost slider with pinkish background) or you can press the
+<b>SPACE</b> key to teach one step with a random input.  <p>
+
+Use the <b>START/STOP</b> button to start and stop the automatic
+training.  The <b>RANDOMIZE</b> button will set the values of the sliders to
+random values.  Use the text field to set the <i>alpha</i> learning
+rate parameter.  Map units are also editable with the mouse.  <p>
+
+<a href="demo1instr.html">More detailed information</a> about the
+first demo is also available.  But now, lets see that demo:
+
+<hr>
+<a name="applet"></a>
+<table>
+<tr>
+<td align=center valign=center hspace=8 vspace=8>
+<APPLET CODE="SOMDemo1.class" ARCHIVE="somdemo.jar" WIDTH=300 HEIGHT=270>
+<PARAM NAME=IPS   VALUE=5>
+<PARAM NAME=UNITH VALUE=200>
+<PARAM NAME=UNITW VALUE=45>
+<PARAM NAME=UNITS VALUE=5>
+<PARAM NAME=ALPHA VALUE="0.5">
+<PARAM NAME=MAXALPHA VALUE="0.8">
+<strong>
+Java SOM applet not started.  Possibly Java has been turned off or
+your browser doesn't support Java applets...
+</strong>
+</APPLET>
+
+</td><td align=left valign=top>
+<ul>
+  <li><strong>START/STOP</strong> button start or stop automatic training
+
+  <li><strong>RANDOMIZE</strong> button randomizes the map
+
+  <li><strong>Alpha</strong> textfield sets <i>alpha</i>, the
+       learning rate (remember to press Enter/Return after inputting a
+       new value for alpha)
+
+  <li><strong>SPACEBAR</strong> trains one step with a random input.
+
+  <li><strong>Click mouse on input vector (leftmost, pinkish)</strong>
+       to teach one step with user-selectable input
+
+  <li><strong>CURSOR UP/DOWN</strong> increase/decrease automatic
+       training rate
+  <li>You can also edit the values of the map vectors with the mouse.
+  <li><a href="demo1instr.html">More information</a>
+</ul>
+
+
+</td></tr>
+</table>
+<hr>
+
+<h2>Notes</h2>
+
+<ul>
+  <li>In this demo the neighborhood size is constant (radius equals
+       one, the winner and its neighbours are adapted).  If more map
+       units were used, shrinking neighborhood should be used.
+</ul>
+
+<p>
+
+When you are done with this demo, you can go to the 
+<a href="demo2.html"><i><b>second demo</b></i></a>.
+
+<hr>
+<div align=center>
+*
+<a href="index.html"><strong>Demo Index</strong></a>
+*
+<a href="http://www.cis.hut.fi/nnrc/index.html"><strong>Neural Networks Research Centre</strong></a>
+*
+<div>
+<hr>
+<font size=-1><i>
+<!-- hhmts start -->
+Last modified: Wed Sep 29 19:38:16 1999
+<!-- hhmts end -->
+</i></font>
+</body></html>

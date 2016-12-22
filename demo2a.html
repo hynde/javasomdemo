@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<TITLE>Demo 2: Visualizing a data set</TITLE>
+</HEAD>
+<BODY>
+
+<h1>Demo 2: Visualizing a data set</h1>
+
+<font size=+1><em>
+The second demonstration is more complex.  A two-dimensional map is
+teached with data from four classes and as the result the classes will
+occupy separate areas on the map.  Classes and their proportions as
+well as other parameters are user-settable allowing a wide range of
+experiments.
+</em></font><p>
+
+
+<img src="images/SOMDemo2s.gif" align=left hspace=8 alt=""> 
+
+The four '<b>pies</b>' shown on the left define the input data
+classes.  The pies generate two-dimensional vectors that are uniformly
+distributed inside the sector shown in the pie.  The relative
+proportions of the classes in the teaching data can be controlled with
+the widget on the right of the pies.<p>
+
+On the right is <b>the map</b>.  The map units are displayed as arrows
+pointing to the coordinates in the unit's vector.  When teaching is in
+progress, the map is redisplayed once a second and the background
+color of the map units are set to correspond to the color of the class
+the unit's vector is closest to.<p>
+
+Below the map are the <b>control panels</b> to control the
+<em>alpha</em> and <em>radius</em> parameters.  The textfield shows
+the parameter's initial value.  The next indicator shows with the red
+line where the parameter's value is at the moment relative to the
+initial and final value.  Normally the parameters' values decrease
+over time when teaching is in progress.  The STOP-button can be used
+to stop or restart the decrease.  RESET resets the parameters value to
+the initial value.<p>
+
+Finally in the bottom is the <b>control panel</b> used to start and stop the
+teaching, randomize the map and reset the parameters.<p>
+
+All things are editable with the mouse, try them.
+<a href="demo2instr.html">More detailed information</a> about this demo
+is also available.  But now, let us try the demo:
+
+<hr>
+
+<APPLET CODE="SOMDemo2.class" ARCHIVE="somdemo.jar" WIDTH=460 HEIGHT=410>
+<PARAM NAME=IPS VALUE=20>
+<PARAM NAME=PIEMODE VALUE=arc>
+<strong>
+Java SOM applet not started.  Possibly Java has been turned off or
+your browser doesn't support Java applets...
+</strong>
+</APPLET>
+<hr>
+
+<i>Go to the <a href="demo1.html">first demo</a></i>.
+
+<hr>
+<div align=center>
+*
+<a href="index.html"><b>Demo Index</b></a>
+*
+<a href="http://www.cis.hut.fi/nnrc/index.html"><b>Neural Networks Research Centre</b></a>
+*
+<div>
+<hr>
+<font size=-1><i>
+<!-- hhmts start -->
+Last modified: Wed Sep 29 19:42:05 1999
+<!-- hhmts end -->
+</i></font>
+</body></html>

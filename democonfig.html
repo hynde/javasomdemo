@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<title>Configuring the SOM demonstrations</title>
+</head><body>
+
+<h1>Configuring the SOM demonstrations</h1>
+
+Applet properties can be used to customize the SOM demos.  See the
+html source of the SOM demo pages for examples.
+
+<h2>Common parameters</h2>
+
+<dl>
+  <dt><tt>ips</tt> <em>int</em>
+  <dd>Teaching iterations per second.
+
+  <dt><tt>delay</tt> <em>int</em>
+  <dd><em>(Demos 2 and 3)</em> Time (in milliseconds) between screen
+       updates in the map display.  
+
+  <dt><tt>alpha</tt> <em>float</em>
+  <dd>The learning rate parameter <em>alpha</em>. In demo 1, alpha is
+       constant.  In demos 2 and 3 this parameter tells the initial
+       value of alpha at the start of teaching.
+
+  <dt><tt>radius</tt> <em>float</em>
+  <dd>The neighborhood radius. In demo 1, radius is constant.  In
+       demos 2 and 3 this parameter tells the initial value of radius
+       at the start of teaching. 
+
+  <dt><tt>maxiter</tt> <em>int</em>
+  <dd><em>(Demos 2 and 3)</em> The length of the teaching process in number of
+       iterations during which alpha and radius decrease from their
+       initial values to their final values.  When the parameters
+       teach their final values, the teaching stops automatically.
+
+  <dt><tt>fontname</tt> <em>string</em>
+  <dd>The name of the font used in labels and buttons in the demos.
+       Default font name is 'Helvetica'.
+
+  <dt><tt>fontsize</tt> <em>int</em>
+  <dd>The size of the font used in labels and buttons in the demos.
+       Default size is 12.
+
+  <dt><tt>txtstart</tt> <em>string</em>
+  <dd>Text for the START button.  Default text is 'Start'.
+       
+  <dt><tt>txtstop</tt> <em>string</em>
+  <dd>Text for the STOP button.  Default text is 'Stop'.
+
+  <dt><tt>txtrand</tt> <em>string</em>
+  <dd>Text for the RANDOMIZE button.  Default text is 'Randomize' for
+       demo 1 and 'Randomize map' for demos 2 and 3.
+
+  <dt><tt>txtreset</tt> <em>string</em>
+  <dd><em>(Demos 2 and 3) </em>Text for the RESET button.  Default
+       text is 'Reset'. 
+       
+  <dt><tt>topol</tt> <em>string</em>
+  <dd><em>(Demos 2 and 3)</em> The topology type of the map.  Can be either
+       '<em>rect</em>' (rectagonal topology) or '<em>hexa</em>'
+       (hexagonal topology).  In demo 2 the map is always displayed in
+       rectangular grid even if hexagonal topology is selected.  The
+       default is <em>rect</em>. 
+
+  <dt><tt>neigh</tt> <em>string</em>
+  <dd><em>(Demos 2 and 3)</em> The heighborhood type of the map.  Can be either
+       '<em>bubble</em>' or '<em>gaussian</em>'.  The default is
+       <em>bubble</em>. 
+
+  <dt><tt>mapw</tt> <em>int</em>
+  <dd><em>(Demos 2 and 3)</em> Width of the map.
+
+  <dt><tt>maph</tt> <em>int</em>
+  <dd><em>(Demos 2 and 3)</em> Height of the map.  For one-dimensional
+       map, use 1 as height. 
+
+</dl>
+
+<h2>Demo 1</h2>
+
+<dl>
+  <dt><tt>units</tt> <em>int</em>
+  <dd>Number of map units.  
+
+  <dt><tt>maxalpha</tt> <em>float</em>
+  <dd>The maximum value the user can give to the alpha parameter.
+
+  <dt><tt>unitw</tt> <em>int</em>
+  <dd>Width of the map units. 
+
+  <dt><tt>unith</tt> <em>int</em>
+  <dd>Height of the map units. 
+
+  <dt><tt>bordersize</tt> <em>int</em>
+  <dd>The size of the borders (and knobs) of the map units.  This
+       parameter can be used to make the borders of the units more
+       visible if the size of the applet is enlarged. 
+       
+</dl>
+
+<h2>Demo 2</h2>
+
+<dl>
+  <dt><tt>unitsize</tt> <em>int</em>
+  <dd>Determines the size of the map units.  Map units are square and
+       this parameters tells the length of the side of the square.
+       Currently determines the size of the pies also. 
+
+  <dt><tt>piemode</tt> <em>string</em>
+  <dd>Determines the mode of operation of the 'pies'.  Possible values
+       are <em>arc</em> and <em>sector</em>.  In <em>arc</em>, the
+       random vectors come from the arc shown in the pie.  In
+       <em>sector</em>, vectors are evenly distributed inside the
+       sector. 
+
+  <dt><tt>txtclasses</tt> <em>string</em>
+  <dd>Text for the 'classes' label over the pies.  Default text is
+       'Classes'. 
+
+  <dt><tt>txtpros</tt> <em>string</em>
+  <dd>Text for the label over the widget that is used to change the
+       proportions of the classes.  Default text is '%'. 
+
+  <dt><tt>txtmap</tt> <em>string</em>
+  <dd>Text for the 'Map' label over the map display.  Default text is
+       'Map'. 
+       
+</dl>
+
+<h2>Demo 3</h2>
+
+<dl>
+  <dt><tt>distr</tt> <em>string</em>
+  <dd>This parameter selectes the initial shape of the random
+       distribution that is used to teach the map.  Possible shapes
+       are: <em>square</em>, <em>triangle</em> and <em>circle</em>. 
+       In the demo the selected distribution is shown with light blue
+       color on the map background. 
+
+</dl>
+
+
+<hr>
+<div align=center>
+*
+<a href="index.html"><b>Demo Index</b></a>
+*
+<div>
+<hr>
+<font size=-1><i>
+<!-- hhmts start -->
+Last modified: Wed Sep 29 18:35:06 1999
+<!-- hhmts end -->
+</i></font>
+</body></html>

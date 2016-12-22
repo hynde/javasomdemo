@@ -1,0 +1,33 @@
+
+         Interactive Self-Organizing Map demonstrations in Java
+
+                                 for 
+
+                  Neural Networks Research Centre
+                 Helsinki University of Technology
+                           Espoo, FINLAND
+
+               http://www.cis.hut.fi/nnrc/index.html
+
+
+                       Java Demos written by
+
+                           Jussi Hynninen
+
+                      http://www.iki.fi/hynde/
+                            hynde@iki.fi
+
+
+This package contains demonstrations about Self-Organizing Map (SOM)
+as Java applets.  
+
+Included files:
+  README             This file
+  classes/           Directory containing Java class-files
+  somdemo.jar        SOM demo Java-class files (above) as a JAR file
+  src/               Java source code files
+  images/            Images used in the demo HTML pages
+  index.html         Demos index page
+  democonfig.html    Instructions for customizing the demos with
+                      applet parameters
+
