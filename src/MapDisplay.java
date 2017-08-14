@@ -4,12 +4,8 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: MapDisplay.java,v 1.4 1996/06/28 09:26:03 hynde Exp $	
-//
 
 import java.awt.*;
-import Sommable;
 
 class MapDisplay extends Panel implements Sommable {
 

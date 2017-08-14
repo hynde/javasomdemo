@@ -4,9 +4,6 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   May 1996
-//
-// 	$Id: IterationViewer.java,v 1.6 1996/07/18 11:55:12 hynde Exp $	
-//
 
 import java.awt.*;
 

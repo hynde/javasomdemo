@@ -4,9 +4,6 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   July 1996
-//
-// 	$Id: Lock.java,v 1.1 1996/07/04 08:31:18 hynde Exp $	
-//
 
 class Lock {
   private boolean locked = false;

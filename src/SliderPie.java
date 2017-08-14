@@ -4,14 +4,9 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   June 1996
-//
-// 	$Id: SliderPie.java,v 1.7 1996/06/19 09:47:36 hynde Exp $	
-//
 
 import java.awt.*;
-import Vectorable;
 
-//public class SliderPie extends Canvas implements Vectorable {
 class SliderPie extends Canvas implements Vectorable {
 
   private boolean editable = true;

@@ -4,13 +4,9 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: SliderBar.java,v 1.6 1996/06/07 06:09:52 hynde Exp $	
-//
 
 import java.awt.*;
 
-//public class SliderBar extends Canvas {
 class SliderBar extends Canvas {
 
   public int    sectors  = 0;    /* number of sectors in bar */

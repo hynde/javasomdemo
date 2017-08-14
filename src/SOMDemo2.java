@@ -6,18 +6,9 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: SOMDemo2.java,v 1.24 1996/07/04 08:28:29 hynde Exp $	
-//
 
 import java.applet.Applet;
 import java.awt.*;
-
-import SliderBar;
-import Vector2DDisplay;
-import SliderPie;
-import MapDisplay;
-import IterationViewer;
 
 public class SOMDemo2 extends Applet implements Runnable {
 

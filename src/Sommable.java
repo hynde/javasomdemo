@@ -4,9 +4,7 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: Sommable.java,v 1.2 1996/05/14 15:43:30 hynde Exp $	
-//
+
 import java.awt.Dimension;
 
 public interface Sommable {

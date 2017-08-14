@@ -4,11 +4,7 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: Vectorable.java,v 1.5 1996/05/24 10:44:25 hynde Exp $	
-//
 
-//public interface Vectorable {
 interface Vectorable {
   void adapt(Vectorable other, double alpha); // adapt vector
   double distance(Vectorable other);          // distance to other

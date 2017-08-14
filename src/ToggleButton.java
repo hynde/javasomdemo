@@ -4,9 +4,6 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: ToggleButton.java,v 1.2 1996/05/20 13:22:41 hynde Exp $	
-//
 
 import java.awt.*;
 

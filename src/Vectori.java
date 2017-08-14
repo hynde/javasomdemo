@@ -4,11 +4,6 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   June 1996
-//
-// 	$Id: Vectori.java,v 1.1 1996/07/01 07:18:40 hynde Exp $	
-//
-
-import Vectorable;
 
 class Vectori implements Vectorable {
 

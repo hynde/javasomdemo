@@ -5,15 +5,9 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: SOMDemo1.java,v 1.16 1996/07/12 10:07:44 hynde Exp $	
-//
 
 import java.applet.Applet;
 import java.awt.*;
-
-import Vector1DDisplay;
-import MapDisplay;
 
 public class SOMDemo1 extends Applet implements Runnable {
 

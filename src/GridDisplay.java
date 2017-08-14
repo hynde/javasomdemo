@@ -5,12 +5,8 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   June 1996
-//
-// 	$Id: GridDisplay.java,v 1.3 1996/07/05 12:34:26 hynde Exp $	
-//
 
 import java.awt.*;
-import Sommable;
 
 class GridDisplay extends Canvas implements Sommable {
 

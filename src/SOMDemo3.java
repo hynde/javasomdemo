@@ -6,18 +6,9 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   July 1996
-//
-// 	$Id: SOMDemo3.java,v 1.3 1996/07/18 10:18:49 hynde Exp $	
-//
 
 import java.applet.Applet;
 import java.awt.*;
-
-import Vectori;
-import GridDisplay;
-import IterationViewer;
-//import Separator;
-import Lock;
 
 public class SOMDemo3 extends Applet implements Runnable {
 

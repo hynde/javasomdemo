@@ -4,13 +4,9 @@
 //   Jussi Hynninen <hynde@iki.fi>
 // Date:
 //   ** May 1996
-//
-// 	$Id: Vector2DDisplay.java,v 1.5 1996/05/24 10:56:52 hynde Exp $	
-//
-import java.awt.*;
-import Vectorable;
 
-//public class Vector2DDisplay extends Canvas implements Vectorable {
+import java.awt.*;
+
 class Vector2DDisplay extends Canvas implements Vectorable {
 
   private int dimension;
