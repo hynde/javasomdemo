@@ -23,11 +23,24 @@ as Java applets.
 
 Included files:
   README             This file
-  classes/           Directory containing Java class-files
-  somdemo.jar        SOM demo Java-class files (above) as a JAR file
   src/               Java source code files
   images/            Images used in the demo HTML pages
   index.html         Demos index page
   democonfig.html    Instructions for customizing the demos with
                       applet parameters
+
+How to compile:
+
+  cd src
+  javac *.java
+  jar cf ../somdemo.jar *.class
+
+How to use:
+
+Use webbrowser that supports Java plugin or without browser, use
+'appletviewer' from Java, for example:
+
+  appletviewer demo1.html
+
+  
 
