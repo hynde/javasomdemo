@@ -1,0 +1,16 @@
+/* */
+
+footer {
+    border-top: 2px solid black;
+    /*border-bottom: 2px solid black; */
+    margin-top: 1ex;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+    font-size: small;
+    text-align: center;
+}
+
+.abstract {
+  font-size: larger;
+  font-style: italic;
+}

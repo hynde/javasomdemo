@@ -1,6 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html><head>
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
 <title>Configuring the SOM demonstrations</title>
+<link rel="stylesheet" href="style.css">
 </head><body>
 
 <h1>Configuring the SOM demonstrations</h1>
@@ -16,7 +18,7 @@ html source of the SOM demo pages for examples.
 
   <dt><tt>delay</tt> <em>int</em>
   <dd><em>(Demos 2 and 3)</em> Time (in milliseconds) between screen
-       updates in the map display.  
+       updates in the map display.
 
   <dt><tt>alpha</tt> <em>float</em>
   <dd>The learning rate parameter <em>alpha</em>. In demo 1, alpha is
@@ -26,7 +28,7 @@ html source of the SOM demo pages for examples.
   <dt><tt>radius</tt> <em>float</em>
   <dd>The neighborhood radius. In demo 1, radius is constant.  In
        demos 2 and 3 this parameter tells the initial value of radius
-       at the start of teaching. 
+       at the start of teaching.
 
   <dt><tt>maxiter</tt> <em>int</em>
   <dd><em>(Demos 2 and 3)</em> The length of the teaching process in number of
@@ -44,7 +46,7 @@ html source of the SOM demo pages for examples.
 
   <dt><tt>txtstart</tt> <em>string</em>
   <dd>Text for the START button.  Default text is 'Start'.
-       
+
   <dt><tt>txtstop</tt> <em>string</em>
   <dd>Text for the STOP button.  Default text is 'Stop'.
 
@@ -54,26 +56,26 @@ html source of the SOM demo pages for examples.
 
   <dt><tt>txtreset</tt> <em>string</em>
   <dd><em>(Demos 2 and 3) </em>Text for the RESET button.  Default
-       text is 'Reset'. 
-       
+       text is 'Reset'.
+
   <dt><tt>topol</tt> <em>string</em>
   <dd><em>(Demos 2 and 3)</em> The topology type of the map.  Can be either
        '<em>rect</em>' (rectagonal topology) or '<em>hexa</em>'
        (hexagonal topology).  In demo 2 the map is always displayed in
        rectangular grid even if hexagonal topology is selected.  The
-       default is <em>rect</em>. 
+       default is <em>rect</em>.
 
   <dt><tt>neigh</tt> <em>string</em>
   <dd><em>(Demos 2 and 3)</em> The heighborhood type of the map.  Can be either
        '<em>bubble</em>' or '<em>gaussian</em>'.  The default is
-       <em>bubble</em>. 
+       <em>bubble</em>.
 
   <dt><tt>mapw</tt> <em>int</em>
   <dd><em>(Demos 2 and 3)</em> Width of the map.
 
   <dt><tt>maph</tt> <em>int</em>
   <dd><em>(Demos 2 and 3)</em> Height of the map.  For one-dimensional
-       map, use 1 as height. 
+       map, use 1 as height.
 
 </dl>
 
@@ -81,22 +83,22 @@ html source of the SOM demo pages for examples.
 
 <dl>
   <dt><tt>units</tt> <em>int</em>
-  <dd>Number of map units.  
+  <dd>Number of map units.
 
   <dt><tt>maxalpha</tt> <em>float</em>
   <dd>The maximum value the user can give to the alpha parameter.
 
   <dt><tt>unitw</tt> <em>int</em>
-  <dd>Width of the map units. 
+  <dd>Width of the map units.
 
   <dt><tt>unith</tt> <em>int</em>
-  <dd>Height of the map units. 
+  <dd>Height of the map units.
 
   <dt><tt>bordersize</tt> <em>int</em>
   <dd>The size of the borders (and knobs) of the map units.  This
        parameter can be used to make the borders of the units more
-       visible if the size of the applet is enlarged. 
-       
+       visible if the size of the applet is enlarged.
+
 </dl>
 
 <h2>Demo 2</h2>
@@ -105,27 +107,27 @@ html source of the SOM demo pages for examples.
   <dt><tt>unitsize</tt> <em>int</em>
   <dd>Determines the size of the map units.  Map units are square and
        this parameters tells the length of the side of the square.
-       Currently determines the size of the pies also. 
+       Currently determines the size of the pies also.
 
   <dt><tt>piemode</tt> <em>string</em>
   <dd>Determines the mode of operation of the 'pies'.  Possible values
        are <em>arc</em> and <em>sector</em>.  In <em>arc</em>, the
        random vectors come from the arc shown in the pie.  In
        <em>sector</em>, vectors are evenly distributed inside the
-       sector. 
+       sector.
 
   <dt><tt>txtclasses</tt> <em>string</em>
   <dd>Text for the 'classes' label over the pies.  Default text is
-       'Classes'. 
+       'Classes'.
 
   <dt><tt>txtpros</tt> <em>string</em>
   <dd>Text for the label over the widget that is used to change the
-       proportions of the classes.  Default text is '%'. 
+       proportions of the classes.  Default text is '%'.
 
   <dt><tt>txtmap</tt> <em>string</em>
   <dd>Text for the 'Map' label over the map display.  Default text is
-       'Map'. 
-       
+       'Map'.
+
 </dl>
 
 <h2>Demo 3</h2>
@@ -134,23 +136,22 @@ html source of the SOM demo pages for examples.
   <dt><tt>distr</tt> <em>string</em>
   <dd>This parameter selectes the initial shape of the random
        distribution that is used to teach the map.  Possible shapes
-       are: <em>square</em>, <em>triangle</em> and <em>circle</em>. 
+       are: <em>square</em>, <em>triangle</em> and <em>circle</em>.
        In the demo the selected distribution is shown with light blue
-       color on the map background. 
+       color on the map background.
 
 </dl>
 
-
-<hr>
-<div align=center>
+<footer>
+<div>
 *
 <a href="index.html"><b>Demo Index</b></a>
 *
+</div>
 <div>
-<hr>
-<font size=-1><i>
-<!-- hhmts start -->
-Last modified: Wed Sep 29 18:35:06 1999
-<!-- hhmts end -->
-</i></font>
+  <!-- hhmts start -->
+  Last modified: Wed Sep 29 18:35:06 1999
+  <!-- hhmts end -->
+</div>
+</footer>
 </body></html>
